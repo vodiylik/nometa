@@ -6,6 +6,9 @@ html {
 body {
   margin: 0;
 }
+p {
+  text-align: justify;
+}
 h1 {
   margin: 2rem 0;
   font-size: 2rem;
@@ -91,24 +94,24 @@ footer a {
   content: '';
   left: -0.25rem;
   top: 0.625rem;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 0.25rem solid transparent;
-  border-bottom: 0.25rem solid transparent; 
-  
-  border-right: 0.25rem solid; 
+  border-bottom: 0.25rem solid transparent;
+
+  border-right: 0.25rem solid;
 }
 .dialog-line.-you .content {
   background: #bfe9f9;
 }
 .dialog-line.-you .content::before {
-  border-right-color: #bfe9f9; 
+  border-right-color: #bfe9f9;
 }
 .dialog-line.-he .content {
   background: #dcf2fa;
 }
 .dialog-line.-he .content::before {
-  border-right-color: #dcf2fa; 
+  border-right-color: #dcf2fa;
 }
 .dialog-line .time {
   position: absolute;
