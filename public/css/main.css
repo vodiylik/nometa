@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
 html {
   font-size: 16px;
   color: #333;
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 body {
   margin: 0;
 }
 p {
   text-align: justify;
+  font-size: 16px;
 }
 h1 {
   margin: 2rem 0;
@@ -18,7 +21,7 @@ article {
   width: 50rem;
   margin: 0 auto 1rem auto;
   font-size: 1.25rem;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 hr {
   margin: 3rem;
